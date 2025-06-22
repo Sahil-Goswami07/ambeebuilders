@@ -17,7 +17,7 @@ const TeamSection = () => {
   return (
     <section
       id="team"
-      className="relative py-16 sm:h-[700px] max-w-screen h-fit mx-auto bg-black/30 shadow-2xl rounded-lg overflow-hidden"
+      className="relative py-16 sm:h-[700px] max-w-screen h-fit mx-auto bg-black/30 shadow-2xl rounded-lg overflow-hidden "
     >
       
       <div
@@ -42,7 +42,7 @@ const TeamSection = () => {
 
         {/* Text Section */}
         <div className="w-full md:w-2/3">
-          <h2 className="text-5xl font-bold mb-15 text-amber-400">| From the Director's Desk</h2>
+          <h2 className="sm:text-5xl text-4xl font-bold mb-15 text-amber-400">| From the Director's Desk</h2>
           <h3 className="text-4xl text-white font-semibold mb-2">{director.name}</h3>
           <p className="text-xl text-amber-400 mb-6">{director.role}</p>
           <p className="text-lg leading-relaxed text-white">{director.vision}</p>

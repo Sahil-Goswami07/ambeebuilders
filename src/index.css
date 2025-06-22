@@ -65,4 +65,24 @@ html {
       transform: translateY(-50%);
     }
   }
+
+
+}
+
+@keyframes gradientBG {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Define utility class in Tailwind's layer */
+@layer utilities {
+  .animated-gradient-background {
+    background: linear-gradient(270deg, #f59e0b, #d97706, #92400e);
+    background-size: 600% 600%;
+    animation: gradientBG 15s ease infinite;
+  }
 }

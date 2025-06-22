@@ -4,7 +4,7 @@ import { FiSmartphone } from 'react-icons/fi';
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen bg-amber-600 overflow-hidden flex items-center justify-center text-white px-4 sm:px-8">
+    <div className="relative min-h-screen bg-amber-600 overflow-hidden flex items-center justify-center text-white px-4 ">
       {/* Background Gradient and Animation */}
       <div className="absolute inset-0 z-0">
         <div className="w-full h-full bg-gradient-to-br from-amber-600 to-yellow-500 opacity-30 animate-pulse" />

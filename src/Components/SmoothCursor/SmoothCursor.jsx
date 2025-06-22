@@ -32,7 +32,7 @@ const SmoothCursor = () => {
   return (
     <div
       ref={cursorRef}
-      className="fixed top-0 left-0 w-6 h-6 bg-[#80AF81] rounded-full pointer-events-none z-[9999]  transition-opacity duration-350"
+      className="fixed top-0 left-0 w-6 h-6 bg-[#2d392d] rounded-full pointer-events-none z-[9999]  transition-opacity duration-350"
     />
   );
 };

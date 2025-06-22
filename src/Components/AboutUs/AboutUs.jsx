@@ -67,14 +67,14 @@ const AboutUs = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              className="text-xl text-gray-600 max-w-2xl mx-auto"
+              className="text-xl text-gray-600 max-w-2xl mx-auto py-7"
             >
               Ambee Builders has been shaping Jaipur's skyline with premium developments that redefine luxury living.
             </motion.p>
           </div>
 
           {/* Stats Cards */}
-          <div className=" mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <StatCard
               value={counts.projectsCompleted}
               suffix="+"

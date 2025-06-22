@@ -37,9 +37,9 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 bg-[#D6EFD8] text-center px-6 md:px-16 lg:px-32">
+    <section className="py-20 animated-gradient-background text-center px-6 md:px-16 lg:px-32">
       <h2 className="text-4xl md:text-5xl font-bold text-[#100922] mb-12">
-        | Why Choose <span className="text-[#1A5319]">Us</span>
+        | Why Choose <span className="text-[#E17202]">Us</span>
       </h2>
 
       {/* Features Grid */}
@@ -55,8 +55,8 @@ const WhyChooseUs = () => {
           >
             {/* Feature Content */}
             {feature.icon}
-            <h3 className="text-lg font-bold text-[#1A5319] mt-4">{feature.title}</h3>
-            <p className="text-black mt-2">{feature.description}</p>
+            <h3 className="text-lg font-bold text-[#100922] mt-4">{feature.title}</h3>
+            <p className=" text-[#100922] mt-2  text-justify">{feature.description}</p>
           </motion.div>
         ))}
       </div>
