@@ -325,7 +325,7 @@ export const projects = [
       "RERA No.": null,
     },
     amenities: [
-        "24 X 7 Security",
+      "24 X 7 Security",
       "Kids Play Area",
       "Landscape - Flower Garden",
       "Power Back Up",
