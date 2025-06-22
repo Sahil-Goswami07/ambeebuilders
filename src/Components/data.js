@@ -147,9 +147,9 @@ export const projects = [
     ],
     gallery: [
       "/PropertyImages/sukritivilla2/sukritivilla.png",
-      "/PropertyImages/sukritivilla2/i1.jpg",
-      "/PropertyImages/sukritivilla2/i2.jpg",
-      "/PropertyImages/sukritivilla2/i3.jpg",
+      "/PropertyImages/sukritivilla2/i1.JPG",
+      "/PropertyImages/sukritivilla2/i2.JPG",
+      "/PropertyImages/sukritivilla2/i3.JPG",
     ],
     layout: [
      null,
