@@ -4,7 +4,7 @@ import ParticlesComponent from './ParticlesComponent';
 const director = {
   name: 'Mr. Manish Bhardwaj',
   role: 'Founder & CEO, Ambee Builders',
-  image: '/public/ceo.jpg',
+  image: '/ceo.jpg',
   vision: `At Ambee Builders, our mission is not just to construct buildings,
   but to build lasting trust. We aim to redefine urban living by delivering
   premium-quality homes that combine elegance, innovation, and sustainability.
