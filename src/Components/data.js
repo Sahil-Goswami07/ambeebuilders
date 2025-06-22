@@ -146,7 +146,7 @@ export const projects = [
       "Close to schools and hospitals",
     ],
     gallery: [
-      "/PropertyImages/sukritivilla2/sukritivilla.png",
+      "/PropertyImages/sukritivilla2/sukritiVilla.png",
       "/PropertyImages/sukritivilla2/i1.JPG",
       "/PropertyImages/sukritivilla2/i2.JPG",
       "/PropertyImages/sukritivilla2/i3.JPG",
