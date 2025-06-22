@@ -39,7 +39,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.2 }}
           className="text-[clamp(1rem,2vw,1.25rem)] text-white/90 max-w-xl"
         >
-          MB Builders is Jaipur’s leading real estate brand, known for delivering
+          Ambee Builders is Jaipur’s leading real estate brand, known for delivering
           architectural excellence and trusted homes for over a decade.
         </motion.p>
 

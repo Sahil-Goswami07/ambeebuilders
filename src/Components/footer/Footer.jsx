@@ -29,10 +29,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <address className="text-gray-400 not-italic">
-              <p>123 Building Lane</p>
-              <p>Jaipur, Rajasthan 302001</p>
-              <p className="mt-2">Phone: +91 98765 43210</p>
-              <p>Email: info@mbbuilders.com</p>
+              <p>407 Okay Plus Square Madhyam-Marg </p>
+              <p>Mansarovar, Rajasthan 302020</p>
+              <p className="mt-2">Phone: +91 96606 66546</p>
+              <p>Email: ambeebuildersjpr@gmail.com</p>
             </address>
           </div>
           
@@ -41,9 +41,6 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a href="https://www.facebook.com/profile.php?id=61568488371448&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true" className="text-gray-400 hover:text-white">
                 <FaFacebook size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white">
-                <FaTwitter size={24} />
               </a>
               <a href="https://www.instagram.com/ambeebuildrs?igsh=MXZ5d25ocGdsbjRpNg==" className="text-gray-400 hover:text-white">
                 <FaInstagram size={24} />
@@ -56,7 +53,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} MB Builders. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} AMBEE Builders. All rights reserved.</p>
         </div>
       </div>
     </footer>

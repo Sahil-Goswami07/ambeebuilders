@@ -3,12 +3,12 @@ import ParticlesComponent from './ParticlesComponent';
 
 const director = {
   name: 'Mr. Manish Bhardwaj',
-  role: 'Founder & CEO, MB Builders',
-  image: '/public/p2.png',
-  vision: `At MB Builders, our mission is not just to construct buildings,
+  role: 'Founder & CEO, Ambee Builders',
+  image: '/public/ceo.jpg',
+  vision: `At Ambee Builders, our mission is not just to construct buildings,
   but to build lasting trust. We aim to redefine urban living by delivering
   premium-quality homes that combine elegance, innovation, and sustainability.
-  Our vision is to make MB Builders a name synonymous with architectural excellence
+  Our vision is to make Ambee Builders a name synonymous with architectural excellence
   and client satisfaction across Jaipur and beyond. We believe in creating spaces that
   inspire, uplift, and enhance the quality of life for our residents.`,
 };
@@ -23,7 +23,7 @@ const TeamSection = () => {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: 'url(/p2.png)',
+          backgroundImage: 'url(/ceo.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -42,9 +42,9 @@ const TeamSection = () => {
 
         {/* Text Section */}
         <div className="w-full md:w-2/3">
-          <h2 className="text-5xl font-bold mb-15 text-white">| From the Director's Desk</h2>
+          <h2 className="text-5xl font-bold mb-15 text-amber-400">| From the Director's Desk</h2>
           <h3 className="text-4xl text-white font-semibold mb-2">{director.name}</h3>
-          <p className="text-xl text-[#100922] mb-6">{director.role}</p>
+          <p className="text-xl text-amber-400 mb-6">{director.role}</p>
           <p className="text-lg leading-relaxed text-white">{director.vision}</p>
         </div>
       </div>

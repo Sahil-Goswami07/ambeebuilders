@@ -1,5 +1,5 @@
 import Navbar from "./navbar/Navbar"
-import Footer from "./footer/footer"
+import Footer from "./footer/Footer"
 import React, { useState } from 'react';
 import Hero from "./hero/Hero"
 import AboutUs from "./AboutUs/AboutUs"

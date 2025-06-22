@@ -26,7 +26,7 @@ const FloatingButton = () => {
     emailjs
       .send(
         'service_eqd7klw',       // Replace with your actual service ID
-        'template_gzvbqgd',      // Replace with your actual template ID
+        'template_f33qe6p',      // Replace with your actual template ID
         formData,
         '_GBiTNXU1dwcIs4br'        // Replace with your actual public key
       )

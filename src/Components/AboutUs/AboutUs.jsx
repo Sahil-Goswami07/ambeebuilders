@@ -7,10 +7,10 @@ const AboutUs = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   const targetValues = {
-    projectsCompleted: 28,
+    projectsCompleted: 10,
     happyFamilies: 650,
     yearsExperience: 12,
-    sqftDeveloped: 4.2,
+    sqftDeveloped: 1,
   };
 
   const [counts, setCounts] = useState({
@@ -69,7 +69,7 @@ const AboutUs = () => {
               viewport={{ once: true }}
               className="text-xl text-gray-600 max-w-2xl mx-auto"
             >
-              MB Builders has been shaping Jaipur's skyline with premium developments that redefine luxury living.
+              Ambee Builders has been shaping Jaipur's skyline with premium developments that redefine luxury living.
             </motion.p>
           </div>
 

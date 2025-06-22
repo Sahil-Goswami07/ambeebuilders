@@ -10,9 +10,9 @@ const Hero = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const targetValues = {
-    projectsCompleted: 25,
+    projectsCompleted: 10,
     happyFamilies: 500,
-    yearsExperience: 10,
+    yearsExperience: 12,
   };
 
   const [counts, setCounts] = useState({
@@ -62,49 +62,53 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-2xl flex flex-col items-center mx-auto  ">
-          <DotLottieReact
-      className="w-50 h-24"
-      src="https://lottie.host/0b7f3201-9835-40d2-abbc-debfbc8335dd/uyIrJh3guQ.lottie"
-      loop
-      autoplay
-    />
+      <div className="relative z-10 w-full max-w-2xl flex flex-col items-center mx-auto
+  mt-[-40px] pt-4
+  sm:mt-0 sm:pt-12
+  pb-20
+">
+        <DotLottieReact
+          className="w-50 h-34 pb-10 "
+          src="https://lottie.host/0b7f3201-9835-40d2-abbc-debfbc8335dd/uyIrJh3guQ.lottie"
+          loop
+          autoplay
+        />
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="font-bold mb-6 leading-tight text-left sm:text-center"
-          style={{
-            fontSize: 'clamp(2rem, 5vw, 4rem)',
-            lineHeight: '1.1',
-          }}
-        >
-          Own <span className="text-amber-400">More than </span> Just walls
-        </motion.h1>
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="font-bold mb-6 leading-tight text-left sm:text-center"
+            style={{
+          fontSize: 'clamp(2rem, 5vw, 4rem)',
+          lineHeight: '1.1',
+            }}
+          >
+            Own <span className="text-amber-400">More than </span> Just walls
+          </motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="mb-8 max-w-lg text-center"
-          style={{
-            fontSize: 'clamp(1rem, 2.5vw, 1.5rem)',
-          }}
-        >
-          AMBEE Builders brings you premium real estate developments in Jaipur,
-          combining luxury living with timeless elegance.
-        </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="mb-8 max-w-lg text-center"
+            style={{
+          fontSize: 'clamp(1rem, 2.5vw, 1.5rem)',
+            }}
+          >
+            AMBEE Builders brings you premium real estate developments in Jaipur,
+            combining luxury living with timeless elegance.
+          </motion.p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="flex flex-col  gap-4 mb-8  justify-center"
-        >
-          <ScheduleVisitButton />
-        </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex flex-col  gap-4 mb-8  justify-center"
+          >
+            <ScheduleVisitButton />
+          </motion.div>
 
-        {/* Animated Stats */}
+          {/* Animated Stats */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

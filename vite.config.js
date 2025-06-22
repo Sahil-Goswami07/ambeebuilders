@@ -11,6 +11,9 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5173
   },
+    build: {
+    target: 'esnext' // enables top-level await
+  },
   plugins: [react(), tailwindcss(), ],
    resolve: {
     alias: {

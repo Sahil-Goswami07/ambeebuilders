@@ -7,7 +7,7 @@ import { MdOutlineLocalLaundryService } from "react-icons/md";
 import { PiFlowerTulipBold } from "react-icons/pi";
 import { BiSolidVideos } from "react-icons/bi";
 import { IoIosCloudDownload } from "react-icons/io";
-import Footer from "../footer/footer";
+import Footer from "../footer/Footer";
 import FloatingButton from "../FloatingButton/FloatingButton";
 import emailjs from '@emailjs/browser';
 
@@ -188,7 +188,7 @@ const Details = () => {
                 >
                   <option value="">-- Choose a property --</option>
                   <option value="SB Heights-II">SB Heights-II</option>
-                  <option value="Sukriti Villa">Sukriti Villa</option>
+                  <option value="Sukriti Villa">Apna Ashiyana</option>
                 </select>
               </div>
               <div>
@@ -296,7 +296,7 @@ const Details = () => {
             {/* Address & Landmarks */}
             <div className="w-full lg:w-1/2 bg-white p-4 rounded-lg shadow-md text-[#1b2e46]">
               <h2 className="text-xl font-semibold mb-4 text-center text-amber-600">ADDRESS</h2>
-              <p className="mb-6 text-center">Manglam’s River Valley, Ribandar, Goa 403006</p>
+              <p className="mb-6 text-center">{project.address}</p>
               <h3 className="text-lg font-semibold mb-2 text-amber-600">NEARBY LANDMARKS</h3>
               <div className="mb-4">
                 <h4 className="font-semibold text-amber-600">Temples –</h4>
