@@ -56,7 +56,9 @@ const WhyChooseUs = () => {
             {/* Feature Content */}
             {feature.icon}
             <h3 className="text-lg font-bold text-[#100922] mt-4">{feature.title}</h3>
-            <p className=" text-[#100922] mt-2  text-justify">{feature.description}</p>
+                  <p className="text-[#100922] leading-relaxed text-justify break-words max-w-xs md:max-w-sm lg:max-w-md">
+  {feature.description}
+</p>
           </motion.div>
         ))}
       </div>
