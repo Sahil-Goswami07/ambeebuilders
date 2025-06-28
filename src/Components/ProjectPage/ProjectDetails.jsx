@@ -277,46 +277,36 @@ const Details = () => {
           </div>
         </section>
 
-        {/* Location */}
-        <section id="location" className="scroll-mt-24">
-          <h2 className="text-4xl mt-12 font-semibold mb-10 text-center text-gray-800">Location</h2>
-          <div className="bg-[#f5f1ec] p-4 flex flex-col lg:flex-row items-center lg:items-start gap-8">
-            {/* Google Map Embed */}
-            <div className="w-full mb-2">
-              <iframe
-                title="Project Location Map"
-                src={project.mapEmbedUrl}
-                width="100%"
-                height="480"
-                allowFullScreen=""
-                loading="lazy"
-                className="rounded shadow-md"
-              />
-            </div>
-            {/* Address & Landmarks */}
-            <div className="w-full lg:w-1/2 bg-white p-4 rounded-lg shadow-md text-[#1b2e46]">
-              <h2 className="text-xl font-semibold mb-4 text-center text-amber-600">ADDRESS</h2>
-              <p className="mb-6 text-center">{project.address}</p>
-              <h3 className="text-lg font-semibold mb-2 text-amber-600">NEARBY LANDMARKS</h3>
-              <div className="mb-4">
-                <h4 className="font-semibold text-amber-600">Temples –</h4>
-                <p>Kadamba Temple, St. Cathedral Church, Basilica of Bom Jesus</p>
-              </div>
-              <div className="mb-4">
-                <h4 className="font-semibold text-amber-600">Beaches & Hotels –</h4>
-                <p>Hilton, Fab Hotel, Panjim Beach, Ribander Beach</p>
-              </div>
-              <div className="mb-4">
-                <h4 className="font-semibold text-amber-600">Hospitals –</h4>
-                <p>Anthony Gonsalves Hospital, Vrundavan Hospital, Vedicure Wellness Clinics</p>
-              </div>
-              <div>
-                <h4 className="font-semibold text-amber-600">Transit –</h4>
-                <p>Panjim Bus Stand, Goa Airport, Margao Railway Station</p>
-              </div>
-            </div>
-          </div>
-        </section>
+     <section id="location" className="scroll-mt-24">
+  <h2 className="text-4xl mt-12 font-semibold mb-10 text-center text-gray-800">Location</h2>
+  <div className="bg-[#f5f1ec] p-4 flex flex-col lg:flex-row items-center lg:items-start gap-8">
+    {/* Google Map Embed */}
+    <div className="w-full mb-2">
+      <iframe
+        title="Project Location Map"
+        src={project.mapEmbedUrl}
+        width="100%"
+        height="480"
+        allowFullScreen=""
+        loading="lazy"
+        className="rounded shadow-md"
+      />
+    </div>
+
+    {/* Address & Connectivity */}
+    <div className="w-full lg:w-1/2 bg-white p-4 rounded-lg shadow-md text-[#1b2e46]">
+      <h2 className="text-xl font-semibold mb-4 text-center text-amber-600">ADDRESS</h2>
+      <p className="mb-6 text-center">{project.address}</p>
+
+      <h3 className="text-lg font-semibold mb-2 text-amber-600">Connectivity</h3>
+      <ul className="list-disc list-inside text-gray-700 space-y-2">
+        {project.connectivity?.map((point, index) => (
+          <li key={index}>{point}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>
 
         {/* Layout Plans */}
         <section id="layout-plans" className="py-6 border-b mt-10 scroll-mt-24">
