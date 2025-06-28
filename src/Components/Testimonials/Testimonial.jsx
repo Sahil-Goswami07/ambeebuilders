@@ -44,8 +44,8 @@ const testimonials = [
 function InfiniteMovingCardsDemo() {
   return (
     <Element name="testimonialsSection" className="w-full">
-    <div className="h-[40rem]  bg-white  flex flex-col items-center justify-center overflow-hidden">
-      <h2 className="text-4xl font-bold text-amber-600 mb-10">| What Our 
+  <div className="my-10  bg-white  flex flex-col items-center justify-center overflow-hidden">
+      <h2 className="text-3xl font-bold text-amber-600 mb-10 ">| What Our 
         <span className=" text-[#1f1f22]">
         &nbsp;Clients Say
         </span>
