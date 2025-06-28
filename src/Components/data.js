@@ -38,7 +38,7 @@ export const projects = [
     ],
     gallery: [
       "/PropertyImages/vedheights20/vedheights20.jpg",
-      "/PropertyImages/vedheights20/i1.png",
+      "/PropertyImages/vedheights20/f1.png",
       "/PropertyImages/vedheights20/i2.png",
       "/PropertyImages/vedheights20/i3.png",
       "/PropertyImages/vedheights20/i4.png",
