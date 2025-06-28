@@ -37,7 +37,7 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 animated-gradient-background text-center px-6 md:px-16 lg:px-32">
+   <section className="py-20 bg-[#e9c28c] text-center px-6 md:px-16 lg:px-32">
       <h2 className="text-4xl md:text-5xl font-bold text-[#100922] mb-12">
         | Why Choose <span className="text-[#E17202]">Us</span>
       </h2>
