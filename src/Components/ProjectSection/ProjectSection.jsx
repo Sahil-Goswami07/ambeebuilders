@@ -13,7 +13,7 @@ const CurrentProjects = () => {
       type: "2 & 3 BHK Apartments",
       totalUnits: "42",
       status: "Booking Open",
-      img: "/PropertyImages/vedheights20/vedheights20.png",
+      img: "/PropertyImages/vedheights20/vedheights20.jpg",
     },
     {
       id: "2",
