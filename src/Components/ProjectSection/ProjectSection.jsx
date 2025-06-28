@@ -91,7 +91,7 @@ const CurrentProjects = () => {
 
   return (
     <Element name="projectsSection">
-      <div className="px-0 sm:px-auto py-10 sm:py-12 shadow-4xl animated-gradient-background flex flex-col justify-between items-center ">
+      <div className="px-0 sm:px-auto py-10 sm:py-12 shadow-4xl bg-[#e9c28c] flex flex-col justify-between items-center ">
          {/* <div className="absolute inset-0 z-10">
                 <BackgroundGradientAnimation />
               </div> */}
@@ -101,7 +101,7 @@ const CurrentProjects = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
-          <span className="text-[#E17202] sm:py-10 sm:mt-5" >| Our Projects</span>
+          <span className="text-[#000000] sm:py-10 sm:mt-5" >| Our <span className="text-amber-600">Projects</span></span>
         </motion.h1>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-5 ">
