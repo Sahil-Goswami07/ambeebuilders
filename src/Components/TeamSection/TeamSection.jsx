@@ -4,7 +4,7 @@ import ParticlesComponent from './ParticlesComponent';
 const director = {
   name: 'Mr. Manish Bhardwaj',
   role: 'Founder & CEO, Ambee Builders',
-  image: '/ceo.jpg',
+  image: '/public/ceo.jpg',
   vision: `At Ambee Builders, our mission is not just to construct buildings,
   but to build lasting trust. We aim to redefine urban living by delivering
   premium-quality homes that combine elegance, innovation, and sustainability.
@@ -42,8 +42,8 @@ const TeamSection = () => {
 
         {/* Text Section */}
         <div className="w-full md:w-2/3">
-          <h2 className="sm:text-5xl text-4xl font-bold mb-15 text-amber-400">| From the Director's Desk</h2>
-          <h3 className="text-4xl text-white font-semibold mb-2">{director.name}</h3>
+          <h2 className="sm:text-5xl text-[4vh] font-bold mb-15 text-amber-500 whitespace-nowrap">| From the Director's Desk</h2>
+          <h3 className="text-4xl sm:text-4xl text-white font-semibold mb-2 whitespace-nowrap">{director.name}</h3>
           <p className="text-xl text-amber-400 mb-6">{director.role}</p>
           <p className="text-lg leading-relaxed text-white">{director.vision}</p>
         </div>
