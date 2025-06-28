@@ -37,11 +37,13 @@ export const projects = [
       "Proximity to schools and hospitals",
     ],
     gallery: [
-      "/PropertyImages/vedheights20/vedheights20.png",
-      // "../public/PropertyImages/vedheights20/i1.png",
-      // "../public/PropertyImages/vedheights20/i2.png",
-      // "../public/PropertyImages/vedheights20/i3.png",
-      // "../public/PropertyImages/vedheights20/i4.png",
+      "/PropertyImages/vedheights20/vedheights20.jpg",
+      "/public/PropertyImages/vedheights20/i1.png",
+      "/public/PropertyImages/vedheights20/i2.png",
+      "/public/PropertyImages/vedheights20/i3.png",
+      "/public/PropertyImages/vedheights20/i4.png",
+      "/public/PropertyImages/vedheights20/i5.png",
+      "/public/PropertyImages/vedheights20/i6.png",
     ],
     layout: [
       "/PropertyImages/vedheights20/f1.png",
